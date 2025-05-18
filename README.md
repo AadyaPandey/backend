@@ -28,6 +28,7 @@ A simple notification system built with FastAPI, MongoDB, and RabbitMQ to send E
 
 ## 📦 Setup Instructions
 
+```
 1.Install dependencies
 bash
 Copy
