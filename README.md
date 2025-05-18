@@ -28,16 +28,12 @@ A simple notification system built with FastAPI, MongoDB, and RabbitMQ to send E
 
 ## 📦 Setup Instructions
 
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd <repo-folder>
-2. Install dependencies
+1.Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Setup MongoDB and RabbitMQ
+2. Setup MongoDB and RabbitMQ
 You can install MongoDB and RabbitMQ locally or run them via Docker:
 
 bash
@@ -45,12 +41,12 @@ Copy
 Edit
 docker run -d --name mongodb -p 27017:27017 mongo
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
-4. Run FastAPI app
+3. Run FastAPI app
 bash
 Copy
 Edit
 uvicorn app.main:app --reload
-5. Run Worker
+4. Run Worker
 bash
 Copy
 Edit
